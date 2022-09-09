@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 Hello All
 I'm not creating conflict over here
+=======
+Hello All
+I'm creating a conflict over here
+Confusion
+>>>>>>> origin/conflict_test
