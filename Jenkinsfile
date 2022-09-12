@@ -14,6 +14,8 @@ pipeline {
                 echo "Build Version ${VERSION}"
                 echo "My credential username ${SERVER_CREDENTIALS_USR}"
                 echo "My credentials password ${SERVER_CREDENTIALS_PSW}"
+                sh 'python --version'
+                sh 'python Hello_World.py'
             }
         }
         stage('Test') {
