@@ -234,23 +234,6 @@ found, so print `"Not Prime"` and exit the loop with `break`. - The
 `else` belongs to the `for` loop. It runs only if the loop finishes
 without `break`.
 
-**More efficient version:** Only check divisors up to the square root of
-the number.
-
-``` python
-number = 7
-
-if number <= 1:
-    print("Not Prime")
-else:
-    for i in range(2, int(number ** 0.5) + 1):
-        if number % i == 0:
-            print("Not Prime")
-            break
-    else:
-        print("Prime")
-```
-
 ------------------------------------------------------------------------
 
 ## Quick revision
